@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: sans-serif;
 }
@@ -16,20 +17,24 @@ body {
 /* rules */
 .flex-container {
     display: flex;
-    
+
 }
+
 .boxed {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
 .dashed {
     border: dashed 2px grey;
 }
+
 .boxed-1 {
     width: 900px;
     height: 400px;
     background-color: magenta;
-    }
+}
+
 .mega-box {
     margin: 20px auto 0;
     background-color: blue;
@@ -37,48 +42,54 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}   
+}
+
 .section-white {
-    height: 600px;
+
     background-color: white;
-} 
-.large-column{
-    max-height: 400px;
+}
+
+.large-column {
+    height: 400px;
     width: 60%;
     background-color: rgb(0, 136, 255);
 }
+
 .small-column {
     height: 400px;
     width: 40%;
     background-color: pink;
 }
+
 .section-grey {
-    height: 600px;
-    background-color: lightgray;
-} 
-.section-grey-green {
-    height: 1000px;
+
     background-color: lightgray;
 }
-.big-column{
+
+
+.big-column {
     height: 800px;
     width: 1200px;
     background-color: green;
 }
+
 .section-black-1 {
-    height: 600px;
     background-color: black;
+    border-bottom: solid 2px lightgray;
 }
+
 .left-column {
     height: 500px;
     width: 30%;
     background-color: coral;
 }
+
 .right-column {
     height: 500px;
     width: 70%;
     background-color: aquamarine;
 }
+
 .inside-column {
     width: 25%;
 }
@@ -91,22 +102,27 @@ header {
 }
 
 /* other */
-.logo{
+.logo {
     width: 20%;
     display: flex;
     justify-content: flex-start;
 }
-.link{
+
+.link {
     width: 60%;
     display: flex;
     justify-content: center;
 }
-.login{
+
+.login {
     width: 20%;
     display: flex;
     justify-content: flex-end;
 }
-.logo, .link, .login {
+
+.logo,
+.link,
+.login {
     padding: 1em;
 }
 
@@ -116,11 +132,28 @@ header {
     align-self: center;
 }
 
-#align-center {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+.left-column,
+.right-column {
+    margin: 1em 0 2em;
 }
-.left-column, .right-column {
-    margin-top: 25px ;
+
+.row {
+    padding: 1em 0;
+}
+.bg-aqua {
+    background-color: aquamarine;
+    padding: 1em 0 1em;
+}
+.button {
+    background-color: darksalmon;
+}
+.logo-1 {
+    background-color: darksalmon;
+}
+.space {
+    justify-content: space-between;
+}
+
+.footer-padding {
+    padding-top: 2em;
 }
